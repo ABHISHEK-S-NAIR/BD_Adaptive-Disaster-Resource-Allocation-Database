@@ -43,11 +43,13 @@ JWT_SECRET=replace-with-strong-secret
 
 ## Authentication
 
-The seed data provisions three operational accounts:
+The seed data provisions five operational accounts:
 
 - Administrator — `aishwarya` / `admin123`
 - Logistics Lead — `mohit` / `logistics123`
 - Field Coordinator — `leena` / `field123`
+- Administrator — `admin_portal` / `Admin@123`
+- Field Coordinator — `field_operator` / `User@123`
 
 Administrators can manage user roles, while Administrators and Field Coordinators can add/update disaster records. Other roles retain read-only access.
 
